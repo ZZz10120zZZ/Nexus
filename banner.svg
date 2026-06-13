@@ -1,0 +1,50 @@
+<svg viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Nexus — an environment for cultivating questions">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="34%" r="85%">
+      <stop offset="0%" stop-color="#faf6ef"/>
+      <stop offset="52%" stop-color="#f2ece0"/>
+      <stop offset="100%" stop-color="#e9e2d2"/>
+    </radialGradient>
+    <radialGradient id="qglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d8b25e"/>
+      <stop offset="55%" stop-color="#bb9540"/>
+      <stop offset="100%" stop-color="#bb9540" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="420" fill="url(#bg)"/>
+
+  <g stroke="#2c7860" stroke-opacity="0.22" stroke-width="1.2" fill="none">
+    <path d="M150 300 L300 150 L470 250 L300 150 L250 70"/>
+    <path d="M470 250 L600 120 L760 200"/>
+    <path d="M760 200 L920 110 L1050 240 L920 110 L990 60"/>
+    <path d="M600 120 L600 60"/>
+    <path d="M150 300 L330 330 L470 250"/>
+    <path d="M1050 240 L1080 330"/>
+  </g>
+  <g fill="#3a8350" fill-opacity="0.55">
+    <circle cx="150" cy="300" r="4.5"/>
+    <circle cx="470" cy="250" r="4.5"/>
+    <circle cx="250" cy="70" r="3.5"/>
+    <circle cx="760" cy="200" r="4.5"/>
+    <circle cx="920" cy="110" r="4.5"/>
+    <circle cx="1050" cy="240" r="4.5"/>
+    <circle cx="990" cy="60" r="3.5"/>
+    <circle cx="600" cy="60" r="3.5"/>
+    <circle cx="330" cy="330" r="3.5"/>
+    <circle cx="1080" cy="330" r="3.5"/>
+  </g>
+
+  <circle cx="300" cy="150" r="22" fill="url(#qglow)"/>
+  <circle cx="300" cy="150" r="6.5" fill="#bb9540"/>
+  <circle cx="600" cy="120" r="18" fill="url(#qglow)" opacity="0.7"/>
+  <circle cx="600" cy="120" r="5.5" fill="#bb9540"/>
+
+  <text x="600" y="232" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" letter-spacing="13" fill="#8c8475">N E X U S</text>
+  <text x="600" y="232" text-anchor="middle" font-family="Georgia, serif" font-size="0" fill="none"></text>
+
+  <text x="600" y="300" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="23" fill="#3f3a32">Where questions are not answered, but grown.</text>
+  <text x="600" y="338" text-anchor="middle" font-family="Georgia, serif" font-size="15" letter-spacing="6" fill="#b07f28">問 い を 育 て る 観 察 環 境</text>
+
+  <line x1="520" y1="258" x2="680" y2="258" stroke="#2c7860" stroke-opacity="0.45" stroke-width="1.4"/>
+</svg>
